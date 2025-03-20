@@ -1,4 +1,5 @@
 # HigLabo
+
 HigLabo library provide features 
 
 1. OpenAI client library
@@ -222,3 +223,13 @@ https://www.codeproject.com/Articles/5336184/Creating-best-Csharp-Slack-client-l
 
 ## HigLabo.Bing
 Bing client library to call Bing search API.
+
+# References
+
+https://github.com/gtechsltn/higlabo
+
+https://github.com/gtechsltn/sqldalmaker
+
+https://github.com/higty/higlabo
+
+https://github.com/panedrone/sqldalmaker
