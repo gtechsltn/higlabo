@@ -2,14 +2,13 @@
 HigLabo library provide features 
 
 1. OpenAI client library
-2. Object Mapper(fastest in the world)
-3. DbSharp(DAL generator)
-4. And other.(Mail, Ftp, Rss, Twitter...etc)
+2. Object Mapper (fastest in the world)
+3. DbSharp (DAL generator)
+4. Other (Mail, Ftp, Rss, Twitter, ...etc)
 
 I added .NET Standard version at 2020/07/03.
+
 It was moved from https://github.com/higty/higlabo.netstandard repository.
-
-
 
 ## HigLabo.OpenAI
 2025-03-14 Support Responses API endpoint, and web search, file search and more. 
@@ -64,7 +63,6 @@ foreach (var item in result.ContentList)
         }
     }
 }
-
 ```
 
 ```
@@ -96,7 +94,6 @@ Console.WriteLine(JsonConvert.SerializeObject(result.Thread));
 Console.WriteLine(JsonConvert.SerializeObject(result.Run));
 Console.WriteLine(JsonConvert.SerializeObject(result.RunStep));
 Console.WriteLine(JsonConvert.SerializeObject(result.Message));
-
 ```
 
 ## HigLabo.GoogleAI
@@ -138,9 +135,7 @@ foreach (var candidate in res.Candidates)
         }
     }
 }
-
 ```
-
 
 ## HigLabo.Anthropic
 HigLabo.Anthropic is a C# library of Anthropic Claude AI.
@@ -176,9 +171,7 @@ Performance test at 2024/02/02.
 Note) Mapperly is fast because it does not create new instance. That only pass reference. It does not map property values. Mapperly looks fastest but it is not on the test Address, Customer.
 HigLabo.Mapper is fastest than any other library. Only Address to AddressDTO is slower than Mapperly.
 
-
 HigLabo.Mapper (version3.0.0 or later) is used expression tree. It generate il code on runtime, so it is nealy fast as handy code.
-
 
 ## DbSharp
 2025-02-04 Refine DbSharpApplication.
@@ -229,4 +222,3 @@ https://www.codeproject.com/Articles/5336184/Creating-best-Csharp-Slack-client-l
 
 ## HigLabo.Bing
 Bing client library to call Bing search API.
-
